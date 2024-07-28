@@ -13,7 +13,8 @@ body {
   background-size: cover;
 }
 
-.hero {
+.hero,
+.leader {
   height: 100vh;
 }
 
