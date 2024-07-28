@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>FHRD</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-md bg-transparent border-bottom fixed-top mynavbar"
+    >
+      <div class="container">
+        <img
+          src="img/fhrd logo.png"
+          class="brand-image me-2"
+          style="width: 45px"
+          alt=""
+        />
+        <a class="navbar-brand fw-bold" href="#">Forum HRD</a>
+        <button
+          class="navbar-toggler bg-secondary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark w-50"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">
+              Forum FHRD
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto fw-bold">
+              <a class="nav-link text-info-emphasis" href="#hero">Beranda</a>
+              <a class="nav-link text-info-emphasis" href="#about"
+                >Tentang Kami</a
+              >
+              <a class="nav-link text-info-emphasis" href="#leader">Struktur</a>
+              <a class="nav-link text-info-emphasis" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="hero" style="padding-top: 3rem" id="hero">
+      <div class="container">
+        <div class="row justify-content-center mt-4">
+          <div class="container">
+            <div class="clock">
+              <div id="clock">
+                <div id="time" style="display: flex; justify-content: start">
+                  <div class="px-2 mx-1 rounded border border-light">
+                    <span id="hours" class="fs-5 text-light fw-bold">00</span>
+                  </div>
+                  <div class="px-2 mx-1 rounded border border-light">
+                    <span id="minutes" class="fs-5 text-light fw-bold">00</span>
+                  </div>
+                  <div class="px-2 mx-1 rounded border border-light">
+                    <span id="seconds" class="fs-5 text-light fw-bold">00</span>
+                  </div>
+                  <div class="px-2 mx-1">
+                    <span id="amOrpm" class="fs-5 text-light fw-bold">AM</span>
+                  </div>
+                </div>
+                <div id="cal" style="display: flex; justify-content: start">
+                  <span id="fullyear" class="fs-6 mt-2 text-secondary fw-bold"
+                    >25 Januari 2021</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-content container" style="height: auto">
+        <h1 class="text-center mt-5 mb-4">Selamat Datang</h1>
+        <div class="container">
+          <div
+            class="row justify-content-center"
+            style="
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-self: center;
+            "
+          >
+            <div class="col-sm-3 col-md-4 col-8 hero-image">
+              <img
+                src="img/logo02.png"
+                style="width: 60%; display: block; margin: auto"
+                alt=""
+              />
+            </div>
+            <div class="col-sm-4 col-md-5 col-8 hero-title">
+              <h1 class="text-center mt-2">Forum Hrd</h1>
+              <p class="text-center fw-bold fs-5">Kabupaten Bandung</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-info container mt-4">
+          <!-- <h4>Visi</h4>
+          <p>
+            Menjadi mitra terpercaya dalam pembangunan sumber daya manusia (SDM)
+            yang unggul dan berdaya saing.
+          </p>
+          <p>
+            Menjadi katalisator bagi peningkatan kualitas SDM di Indonesia,
+            sehingga mampu berkompetisi secara global.
+          </p>
+          <p>
+            Menjadi perusahaan pengembangan SDM dan organisasi di Indonesia yang
+            bermanfaat untuk mendorong pengembangan kompetisi SDM dan organisasi
+            perusahaan di Indonesia, agar mampu berkompetisi secara global.
+          </p> -->
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <section id="about" class="about">
+      <div class="content container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-12 text-center mt-5 mb-2">
+            <h1 class="mt-4 mb-2">Tentang Kami</h1>
+            <p class="fw-bold mb-5 mt-2 text-light-emphasis">
+              Kami adalah Forum yang mewadahi HRD Perusahaan di Kabupaten
+              Bandung
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4 col-10">
+              <div class="about-img">
+                <img
+                  src="img/fhrd logo.png"
+                  class="d-block m-auto mb-2"
+                  style="width: 60%"
+                />
+              </div>
+              <div class="about-body text-center">
+                <h5 class="about-title text-light fw-bold">
+                  FHRD Kabupaten Bandung
+                </h5>
+                <p class="text-primary">
+                  email:
+                  <span
+                    ><a
+                      href="mailto:fhrdkabbandung@gmai.com"
+                      class="text-primary"
+                      style="text-decoration: none"
+                      >fhrdkabbandung@gmail.com</a
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-md-8 col-12 card-info1 mt-1 mb-5 border-0">
+              <div class="mt-2border-0">
+                <div class="card-info text-secondary">
+                  <h3 class="fw-bold mb-4">Hello everyone,</h3>
+                  <p>
+                    Forum ini merupakan tempat komunikasi bagi HRD
+                    <span class="fs-bold">(Human Resource Development)</span>
+                    khususnya yang berada di wilayah kerja Kabupaten Bandung
+                    dengan keragaman perusahaan (Hotel, Restoran, Tekstil, BUMN,
+                    BUMD, dll.) namun demikian forum ini dapat juga di ikuti
+                    oleh semua pihak yang tertarik atau sekedar untuk mendapat
+                    informasi-informasi tambahan.
+                  </p>
+                  <p>
+                    Forum ini tempat bertukar pengalaman, dan saling membantu
+                    didalam memecahkan persoalan ketenagakerjaan, dan informasi
+                    lowongan pekerjaan.
+                  </p>
+                  <p>
+                    Forum ini mempunyai agenda-agenda rutin, baik itu agenda
+                    bulanan maupun agenda tahunan, dengan mengedepankan
+                    musyawarah untuk mufakat.
+                  </p>
+                  <p class="last mb-5">
+                    Di wilayah Kabupaten Bandung, Forum HRD ini terbagi menjadi
+                    4 Zona Wilayah Kerja, yang masing-masing diketuai oleh satu
+                    orang Ketua Zona.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Project Start -->
+    <section id="leader" class="leader">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-10 text-center about-us mb-2">
+            <h1 class="mb-3 mt-5 pt-4">Kepengurusan Forum</h1>
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-8 col-10 mb-5">
+                <div
+                  id="carouselExampleAutoplaying"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/syam.png" class="d-block w-100 border-0" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/melly.png" class="d-block w-100 border-0" />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="img/sastra.png"
+                        class="d-block w-100 border-0"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project End -->
+
+    <!-- Member Start -->
+    <!-- <section id="contact" class="contact">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-10 text-center about-us mb-2">
+            <h1 class="mb-4 pt-3">Kunjung Kami</h1>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Member End -->
+    <!-- About End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      function SettingCurrentTime() {
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
+        var amOrPm = hours < 12 ? "AM" : "PM";
+
+        hours = hours === 0 ? 12 : hours > 12 ? hours - 12 : hours;
+        hours = addZero(hours);
+        minutes = addZero(minutes);
+        seconds = addZero(seconds);
+
+        var currentDate = currentTime.getDate();
+        var currentMonth = ConvertMonth(currentTime.getMonth());
+        var currentYear = currentTime.getFullYear();
+        var fullDateDisplay = `${currentDate} ${currentMonth} ${currentYear}`;
+
+        document.getElementById("hours").innerText = hours;
+        document.getElementById("minutes").innerText = minutes;
+        document.getElementById("seconds").innerText = seconds;
+        document.getElementById("amOrpm").innerText = amOrPm;
+        document.getElementById("fullyear").innerText = fullDateDisplay;
+
+        var timer = setTimeout(SettingCurrentTime, 1000);
+      }
+
+      function addZero(component) {
+        return component < 10 ? "0" + component : component;
+      }
+
+      function ConvertMonth(component) {
+        month_array = new Array(
+          "Januari",
+          "Febuari",
+          "Maret",
+          "April",
+          "Mei",
+          "Juni",
+          "Juli",
+          "Agustus",
+          "September",
+          "Oktober",
+          "November",
+          "Desember"
+        );
+        return month_array[component];
+      }
+
+      SettingCurrentTime();
+    </script>
+  </body>
+</html>
